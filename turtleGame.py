@@ -11,14 +11,14 @@ dave = turtle.Turtle()
 turtles = ["tess", "alex", "josh", "dave"]
 
 BasicAddr = "C:\\Users\\levig\\OneDrive\\Documents\\Coding\\Python\\Games\\Memory Game\\"
-BTLAddr = BasicAddr + "Blue-Top-Left.gif"
-YBLAddr = BasicAddr + "Yellow-Bottom-Left.gif"
-RBRAddr = BasicAddr + "Red-Bottom-Right.gif"
-GTRAddr = BasicAddr + "Green-Top-Right.gif"
-DTLAddr = BasicAddr + "Depressed-Top-Left.gif"
-DBLAddr = BasicAddr + "Depressed-Bottom-Left.gif"
-DBRAddr = BasicAddr + "Depressed-Bottom-Right.gif"
-DTRAddr = BasicAddr + "Depressed-Top-Right.gif"
+BTLAddr = BasicAddr + "images\\Blue-Top-Left.gif"
+YBLAddr = BasicAddr + "images\\Yellow-Bottom-Left.gif"
+RBRAddr = BasicAddr + "images\\Red-Bottom-Right.gif"
+GTRAddr = BasicAddr + "images\\Green-Top-Right.gif"
+DTLAddr = BasicAddr + "images\\Depressed-Top-Left.gif"
+DBLAddr = BasicAddr + "images\\Depressed-Bottom-Left.gif"
+DBRAddr = BasicAddr + "images\\Depressed-Bottom-Right.gif"
+DTRAddr = BasicAddr + "images\\Depressed-Top-Right.gif"
 shapes = [BTLAddr, YBLAddr, RBRAddr, GTRAddr, DTLAddr, DBLAddr, DBRAddr, DTRAddr]
 for shape in shapes:
     turtle.register_shape(shape)
